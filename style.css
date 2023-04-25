@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightgrey;
+
+}
+.container{
+    background: rgba(255,255,255,.3);
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    width: 85%;
+    max-width: 400px;
+    padding: 10px 15px;
+    box-shadow: 0 10px 10px;
+}
+.text{
+    height:30px ;
+    width: 180px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.meaning-container{
+display: none;
+}
+.meaning-container p{
+    padding: 5px;
+    
+}
